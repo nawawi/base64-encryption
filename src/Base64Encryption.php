@@ -32,7 +32,7 @@ class Base64Encryption
 
         $pad = $this->obfuscate($mykey);
         if (false === $pad) {
-            return $encrypted_value;
+            return $value;
         }
 
         $value_length = \strlen($value);
