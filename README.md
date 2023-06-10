@@ -9,10 +9,10 @@ composer require nawawi/base64-encryption
 ## Example
 ```php
 <?php
-use Nawawi\Base64Encryption;
+use Nawawi\Base64Encryption\Base64Encryption;
 
 // With default key
-$encryption = Base64Encryption();
+$encryption = new Base64Encryption();
 $encrypted = $encryption->encrypt('test123');
 $decrypted = $encryption->decrypt($encrypted);
 
@@ -20,7 +20,7 @@ echo "\$encrypted = $encrypted\n";
 echo "\$decrypted = $decrypted\n";
 
 // Set key on initiation
-$encryption = Base64Encryption('mysecretkey');
+$encryption = new Base64Encryption('mysecretkey');
 $encrypted = $encryption->encrypt('test123');
 $decrypted = $encryption->decrypt($encrypted);
 
@@ -28,7 +28,7 @@ echo "\$encrypted = $encrypted\n";
 echo "\$decrypted = $decrypted\n";
 
 // Set key with set_key method
-$encryption = Base64Encryption();
+$encryption = new Base64Encryption();
 $encryption->set_key('mysecretkey');
 $encrypted = $encryption->encrypt('test123');
 $decrypted = $encryption->decrypt($encrypted);
@@ -37,7 +37,7 @@ echo "\$encrypted = $encrypted\n";
 echo "\$decrypted = $decrypted\n";
 
 // Set key on call
-$encryption = Base64Encryption();
+$encryption = new Base64Encryption();
 $encrypted = $encryption->encrypt('test123', 'mysecretkey');
 $decrypted = $encryption->decrypt($encrypted, 'mysecretkey');
 
