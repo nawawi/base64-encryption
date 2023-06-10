@@ -1,0 +1,10 @@
+*.cache
+*.sh
+*.phar
+!/tests/
+/tests/*
+!/tests/*.php
+*-phar*.php
+.php-cs-fixer.php
+composer.lock
+note.txt

@@ -1,0 +1,44 @@
+{
+    "name": "nawawi/base64-encryption",
+    "description": "A two-way encryption based on MIME base64.",
+    "keywords": [
+        "two-way encryption",
+        "base64_encrypt",
+        "base64_decrypt"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/nawawi/base64-encryption",
+    "authors": [ {
+        "name": "Nawawi Jamili",
+        "email": "nawawijamili@gmail.com",
+        "homepage": "https://github.com/nawawi"
+    } ],
+    "repositories": [ {
+        "type": "vcs",
+        "url": "https://github.com/nawawi/base64-encryption"
+    } ],
+    "support": {
+        "issues": "https://github.com/nawawi/base64-encryption/issues",
+        "source": "https://github.com/nawawi/base64-encryption"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Nawawi\\Base64Encryption\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "/tests/"
+        ],
+        "classmap": [
+            "src/"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
