@@ -1,5 +1,5 @@
 # Base64 Encryption
-The Base64Encryption provide a simple two-encryption based on MIME base64.
+The Base64Encryption class provides a simple two-way encryption based on MIME base64.
 
 ## Installation
 ```
