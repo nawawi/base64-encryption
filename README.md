@@ -3,7 +3,7 @@ The Base64Encryption provide a simple two-encryption based on MIME base64.
 
 ## Installation
 ```
-composer require nawawi\base64-encryption
+composer require nawawi/base64-encryption
 ```
 
 ## Example
