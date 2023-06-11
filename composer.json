@@ -29,7 +29,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Nawawi\\Base64Encryption\\": "src/"
+            "Nawawi\\Utils\\": "src/"
         },
         "exclude-from-classmap": [
             "/tests/"
@@ -40,5 +40,8 @@
     },
     "config": {
         "optimize-autoloader": true
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
     }
 }

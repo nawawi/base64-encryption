@@ -6,5 +6,7 @@
 !/tests/*.php
 *-phar*.php
 .php-cs-fixer.php
-composer.lock
 note.txt
+composer.lock
+phpunit.xml
+vendor/

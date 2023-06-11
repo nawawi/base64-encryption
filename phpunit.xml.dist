@@ -1,0 +1,18 @@
+<phpunit bootstrap="tests/autoload.php"
+        verbose="true"
+        stopOnError="false"
+        stopOnFailure="false"
+        stopOnIncomplete="false"
+        stopOnSkipped="false"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        colors="true"
+        forceCoversAnnotation="false"
+        processIsolation="false">
+  <testsuites>
+    <testsuite name="Base64Encryption Tests">
+      <directory suffix="Test.php">./tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
